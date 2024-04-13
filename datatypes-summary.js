@@ -12,4 +12,16 @@ console.log(id==anotherId)//false
 //Non primitive or reference type
 
 //Array, Objects, Functions
-const heroes=["thor","ironman","hulk"]
+const heroes=["thor","ironman","hulk"] //array
+
+let myobj = {//object 
+    name: "Priyanshu",
+    age: 20
+}
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+console.log(typeof heroes) //oject
+console.log(typeof myobj)//object
+console.log(typeof myFunction)//function
